@@ -1,0 +1,79 @@
+
+?rnorm
+help.search("rnorm.:")
+args("rnorm")
+rnorm
+
+http://cran.r-project.org/doc/contrib/Short-refcard.pdf
+cran.r-project.org
+rstudio.com
+git bash
+
+git-scm.com/book/en/getting-started-a-short=history=of=git
+git-scm.com/book/en/Git-Basics-Getting-a-Git_Reposotory
+git-scm.com/download
+git config --global user.name"peterV"
+git config --global user.email "peterveenstra@yahoo.com"
+git config --list
+github
+git init
+git remote add original https-------
+git add . (ad all newfiles)
+git add -u (update)
+git add -A (new and update)
+git commit -m "messgae" (to local repro)
+
+git push (github)
+git checkout -b branchname
+git branch (current branch)
+git checkout master (backto master)
+pull request (merge branches together)
+https://github.com/PeterVeenstra/DataScienceCoursera.git
+
+markdown
+http://daringfireball.net/projects/markdown/
+http://rstudio.com/ide/docs/authoring/using_markdown
+
+r packages available from CRAN
+a (all available)
+head (rownames(a), 3) # names of first few
+install.packages("slidify") installs new and dependant packages
+install.packages(c("a","b"))
+
+bioconductor
+bilite()
+bilite(c("a","b"))
+
+loading
+library(ggplot2) # no quotes
+seaarch()
+
+
+Rtools
+htp://cran.r-project.org/bin/windows/Rtools/
+install.packages("devtools")
+library(devtools)
+find_rtools()
+
+Descriptive modeling
+Exploratory new connections, future study, correlation does not imply causation
+inferential analysis from small sample estimate large goal for stats model
+Predictive if x predicts y not xcauses y
+Causal analysis what happenstovariable a if change variableb,identifiedas average
+Mechanistic analysys exact change in variable effects other variables, engineering not infering, only random amount is measurement error
+
+Data 
+Data are values of qualitative or quantitative variables belonging to a set of items (population)
+question more important than data but can be modified depending on data
+
+Experimental design
+statistical inference (from small random sample infer)
+need small variability from different sample sets
+confounding shoe size => literasy  confounding is age
+correlation is not causation, or sperious  
+fix data or stratefy obama text and colour or randomise data
+prediction quantities true positive, fp, fn tn 
+data dredging: green jelly beans casuses acne when tested yellow etc
+
+
+
