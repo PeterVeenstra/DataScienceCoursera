@@ -21,7 +21,7 @@ git remote add original https-------
 git add . (ad all newfiles)
 git add -u (update)
 git add -A (new and update)
-git commit -m "messgae" (to local repro)
+git commit -m "message" (to local repro)
 
 git push (github)
 git checkout -b branchname
@@ -30,6 +30,18 @@ git checkout master (backto master)
 pull request (merge branches together)
 https://github.com/PeterVeenstra/DataScienceCoursera.git
 
+ create a new repository on the command line
+echo # DataScienceCoursera >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/PeterVeenstra/DataScienceCoursera.git
+git push -u origin master
+
+push an existing repository from the command line
+git remote add origin https://github.com/PeterVeenstra/DataScienceCoursera.git
+git push -u origin master
+  
 markdown
 http://daringfireball.net/projects/markdown/
 http://rstudio.com/ide/docs/authoring/using_markdown
